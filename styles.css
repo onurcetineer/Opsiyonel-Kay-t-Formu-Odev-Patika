@@ -1,0 +1,53 @@
+body{
+    background-color: #A13F5B;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+h1{
+    color: #ecf0f1;
+    text-align: center;
+}
+form{
+    background-color: #34475E;
+    padding: 20px;
+    border-radius: 25px;
+}
+label{
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+#desc{
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+#comments{
+    text-align:center;
+}
+#submit{
+    color: #ecf0f1;
+    background: #e74c3c;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Opsiyonel)Ödev - Kayıt Formu - Patika Ödev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- FORM -->
+     <form id="survey-form">
+        <h1 class="title">Survey Form For CSS Practice</h1>
+        <p id="desc">Aşağıdaki Formu Doldurun</p>
+
+        <label id="name-label" for="name">İsim:</label>
+        <input id="name" type="text" placeholder="İsminizi Girin" >
+
+        <label for="email-label" form="email">E-posta:</label>
+        <input id="name" type="text" placeholder="E-Posta Adresinizi Giriniz">
+
+        <label id="number-label" for="number">Yaş:</label>
+        <input id="number" type="text" placeholder="Yaşınızı Giriniz">
+
+        <label for="dropdown">Cinsiyet:</label>
+        <select id="dropdown" required>
+            <option value="">Seçin</option>
+            <option value="male">Erkek</option>
+            <option value="female">Kadın</option>
+        </select>
+
+         
+         <p>Bizi Nereden Duydunuz?:</p>
+         <label>
+             <input type="radio" name="participation" value="yes" required> Evet
+         </label>
+         <label>
+             <input type="radio" name="participation" value="no" required> Hayır
+         </label>
+       
+         <p>İlgi Alanları:</p>
+         <label>
+             <input type="checkbox" name="interests" value="sports"> Spor
+         </label>
+         <label>
+             <input type="checkbox" name="interests" value="music"> Müzik
+         </label>
+        
+         <label for="comments">Yorumunuz:</label>
+         <textarea id="comments" placeholder="Yorumlarınızı buraya yazın"></textarea>
+         
+         <input id="submit" type="submit" value="Gönder">
+     </form>
+     </form>
+    
+</body>
+</html>
